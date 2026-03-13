@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="MyTestSuite" parallel="false">
+    <test name="MyTest">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
